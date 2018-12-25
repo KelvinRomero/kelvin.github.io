@@ -1,0 +1,29 @@
+<section id="portfolio">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <br><br><br>
+        <h1 class="display-1">Works</h1>
+        <br><br><br>
+      </div>
+    </div>
+
+    <div class="row">
+
+      {% for project in site.posts %}
+      {% if project.type %}
+      <div class="col-lg-4 col-sm-12 p-0 m-0">
+          <a href="{{ }}{{ project.url }}">
+
+            <img class="img-portfolio" src="{{ project.img }}" alt="{{ project.title }}">
+
+          </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<br><br><br>
+<br><br><br>
+<br><br><br>

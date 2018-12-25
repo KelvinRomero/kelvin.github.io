@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Test post
+title: Project two
+type: project
+img: '/assets/img/intro-bg.jpg'
 ---
 
 Então, aqui é o primeiro post onde eu devo apresentar alguma ideia.
