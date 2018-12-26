@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12">
         <br><br><br>
-        <h1 class="display-1">Works</h1>
+        <h1 class="display-3">Look on my Works, ye Mighty, and hire!</h1>
         <br><br><br>
       </div>
     </div>
@@ -11,15 +11,33 @@
     <div class="row">
 
       {% for project in site.posts %}
-      {% if project.type %}
-      <div class="col-lg-4 col-sm-12 p-0 m-0">
+        {% if project.type %}
+        <div class="col-lg-4 col-sm-12 p-0 m-0">
+
           <a href="{{ }}{{ project.url }}">
+          <div class="project-container">
+              <img class="img-portfolio" src="{{ project.img }}" alt="{{ project.title }}">
 
-            <img class="img-portfolio" src="{{ project.img }}" alt="{{ project.title }}">
+            <div class="centered">
+              <h1 class="display-4 text-light text-center">
+                <span class="project-text">
+                  {{ project.title }}
+                </span>
+              </h1>
+              {% for tag in project.tags %}
+                <p class="lead text-light text-center">
+                  <span class="project-text">
+                    {{ tag }}
+                  </span>
+                </p>
+              {% endfor %}
+            </div>
 
-          </a>
-      </div>
-      {% endif %}
+          </div>
+        </a>
+
+        </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
