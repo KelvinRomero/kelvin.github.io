@@ -2,7 +2,7 @@
 layout: default
 title: Plades
 type: project
-img: '/assets/img/projects/saber.png'
+img: '/assets/img/projects/plades.png'
 tags: Elastic-Search Django jQuery django-rest-framwork
 ---
 
@@ -22,4 +22,4 @@ $ docker-compose up
 
 ## Screenshots
 
-![saber](/assets/img/projects/saber.png)
+![saber](/assets/img/projects/plades.png)
