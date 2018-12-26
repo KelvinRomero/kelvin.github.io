@@ -1,47 +1,36 @@
 <section id="portfolio">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
-        <br><br><br>
-        <h1 class="display-3">Look on my Works, ye Mighty, and hire!</h1>
-        <br><br><br>
-      </div>
-    </div>
 
-    <div class="row">
+      <div class="col-12" style="padding: 100px">
+        <h1 class="display-3 text-center">Works</h1>
+      </div>
 
       {% for project in site.posts %}
         {% if project.type %}
-        <div class="col-lg-4 col-sm-12 p-0 m-0">
 
-          <a href="{{ }}{{ project.url }}">
-          <div class="project-container">
-              <img class="img-portfolio" src="{{ project.img }}" alt="{{ project.title }}">
+        <div class="col-lg-6 col-sm-12 p-0 m-0">
+          <a href="{{ project.url }}">
 
-            <div class="centered">
-              <h1 class="display-4 text-light text-center">
-                <span class="project-text">
+            <article class="project">
+              <section class="project-description centered">
+                <h1 class="display-4 text-center text-dark">
                   {{ project.title }}
-                </span>
-              </h1>
-              {% for tag in project.tags %}
-                <p class="lead text-light text-center">
-                  <span class="project-text">
-                    {{ tag }}
-                  </span>
+                </h1>
+                <p class="text-center text-dark">
+                  {% for tech in project.tags %}
+                    {{ tech }}
+                  {% endfor %}
                 </p>
-              {% endfor %}
-            </div>
+              </section>
+                <img src="{{ project.img }}" class="img-fluid" alt="Imagem do {{ project.title }}">
+            </article>
 
-          </div>
-        </a>
-
+          </a>
         </div>
+
         {% endif %}
       {% endfor %}
     </div>
   </div>
 </section>
-<br><br><br>
-<br><br><br>
-<br><br><br>

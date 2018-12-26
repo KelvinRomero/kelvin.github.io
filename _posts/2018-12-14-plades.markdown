@@ -2,8 +2,8 @@
 layout: default
 title: Plades
 type: project
-img: '/assets/img/intro-bg.jpg'
-tags: Elastic-Search Django jQuery django-rest-framwork Elastic-Search Django jQuery django-rest-framwork
+img: '/assets/img/projects/saber.png'
+tags: Elastic-Search Django jQuery django-rest-framwork
 ---
 
 # Plades
