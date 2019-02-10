@@ -4,6 +4,7 @@ title: Saber IFPB
 type: project
 img: '/assets/img/projects/saber.png'
 tags: Elastic-Search Django jQuery django-rest-framework
+intro: An app that helps you find people from IFPB.
 ---
 
 # Saber IFPB

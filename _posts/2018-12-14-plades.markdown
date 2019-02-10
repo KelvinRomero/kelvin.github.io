@@ -4,6 +4,7 @@ title: Plades
 type: project
 img: '/assets/img/projects/plades.png'
 tags: Elastic-Search Django jQuery django-rest-framework
+intro: Indexing and searching economic resources from my state.
 ---
 
 # Plades
