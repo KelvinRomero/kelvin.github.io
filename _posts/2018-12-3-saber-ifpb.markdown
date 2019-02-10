@@ -3,7 +3,7 @@ layout: default
 title: Saber IFPB
 type: project
 img: '/assets/img/projects/saber.png'
-tags: Elastic-Search Django jQuery django-rest-framwork
+tags: Elastic-Search Django jQuery django-rest-framework
 ---
 
 # Saber IFPB
