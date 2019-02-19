@@ -11,15 +11,12 @@ intro: Indexing and searching economic resources from my state.
 O Plades é fruto de uma parceria entre o IFPB, UFPB, Codata e Governo do estado da Paraíba.
 Consiste em uma ferramenta de indexação de pesquisadores, arranjos produtivos locais, políticas públicas entre outras informações públicas que podem ajudar na busca de condições adequadas para empreender no Estado da Paraíba.
 
+Publicação ainda pendente.
+
 ## Tecnologia
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Arquitetura aprimorar a estrutura do meu projeto anterior. Combinando Django com JS e Elastic Search no Backend, suporta busca de centenas de milhares de entradas em menos de 1 segundo.
 
-## Code snippet
-
-```
-$ docker-compose up
-```
 
 ## Screenshots
 

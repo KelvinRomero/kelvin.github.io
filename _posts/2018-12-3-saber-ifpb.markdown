@@ -8,19 +8,16 @@ intro: An app that helps you find people from IFPB.
 ---
 
 # Saber IFPB
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+O Saber IFPB foi um projeto desenolvido durante meu estágio na PRPIPG, do IPFB. Consiste em uma ferramenta de busca de pesquisadores, grupos, projetos de pequisa, competências, publicações bibliográficas e projetos de pesquisa. Posteriormente incluindo também patentes e registros de marca.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A ferramenta de busca é utilizada pelos gestores da PRPIPG para encontrar perfis de pesquisadores com base sem suas competências.
+
+É possível conferir a ferramenta aqui: [Saber IFPB](https://suap.ifpb.edu.br/bi/)
 
 ## Tecnologia
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Na maior parte do projeto utilizamos Django em combinação com o JavaScript. Foram também utilizados ElasticSearch para indexação e Django-Rest-Framework para integração com outros sistemas.
 
-## Code snippet
-
-```
-$ docker-compose up
-```
 
 ## Screenshots
 
